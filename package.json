@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "percy exec -v -- mvn test -P parallel"
+  },
+  "dependencies": {
+    "@percy/cli": "^1.11.0"
+  }
+}

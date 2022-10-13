@@ -1,0 +1,22 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
+  "capabilities": {
+    "browserstack.use_w3c": true,
+    "browserstack.local":false,
+    "bstack:options": {
+      "os": "Windows",
+      "osVersion": "10",
+      "sessionName": "single_test",
+      "buildName": "testng-browserstack-integration",
+      "projectName": "BrowserStack Integration",
+      "debug": true      
+    }
+  },
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    }
+  }
+}

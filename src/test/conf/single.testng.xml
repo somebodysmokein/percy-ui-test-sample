@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Single" verbose="10">
+
+	<test name="SingleTest">
+		<parameter name="config" value="single-test.conf.json" />
+		<parameter name="environment" value="chrome" />
+		<parameter name="remote" value="false" />
+
+		<packages>
+			<package
+				name="com.browserstack.percyui.test.stepdef" />
+		</packages>
+	</test>
+</suite>
