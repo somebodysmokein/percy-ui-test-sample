@@ -16,15 +16,10 @@ npm](https://nodejs.org/en/download/) and
 Clone the example application and install dependencies:
 
 ```bash
-$ git clone https://github.com/percy/example-percy-java-selenium.git
-$ cd example-percy-java-selenium
-$ make install
+$ git clone https://github.com/somebodysmokein/percy-ui-test-sample.git
+$ cd percy-ui-test-sample
+$ npm install
 ```
-
-The example app and its tests will now be ready to go. You can explore the app
-by opening the
-[`src/main/resources/index.html`](https://github.com/percy/example-percy-java-selenium/blob/master/src/main/resources/index.html)
-file in a browser.
 
 ### Step 2
 
@@ -85,7 +80,8 @@ This will create a new branch 'dev'
 Update the code in com.browserstack.percyui.test.stepdef.TestProperties
 like this:
 
-``` srchElt.sendKeys("87401");
+``` 
+	srchElt.sendKeys("87401");
 ```
 
 ### Step 6
